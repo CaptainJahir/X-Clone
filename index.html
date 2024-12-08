@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Home / X</title>
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="media/x-favicon.ico" type="image/x-icon">
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="flex flex-row bg-black text-white">
+
+    <!-- Here Goes the Left Section of the webiste -->
+    <div class="flex w-[27%] min-h-full items-center flex-col fixed bottom-0">
+        <ul class="flex flex-col gap-[0.6rem] font-bold text-lg">
+            <li class="pl-4 mb-1 mt-2">
+                <img src="media/logo.svg" alt="logo" class="h-9 invert cursor-pointer">
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                <span>
+                    <img src="media/home.svg" alt="Home" class="h-8 invert">
+                </span>
+                <span>
+                    Home
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                <span>
+                    <img src="media/Search.png" alt="Search" class="h-9">
+                </span>
+                <span>
+                    Explore
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                <span>
+                    <img src="media/Notification.png" alt="bell" class="h-9">
+                </span>
+                <span>
+                    Notifications
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                <span>
+                    <img src="media/Mail.png" alt="Mail" class="h-9">
+                </span>
+                <span>
+                    Messages
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                <span>
+                    <img src="media/grok.svg" alt="grok" class="h-9 invert">
+                </span>
+                <span>
+                    Grok
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 pr-3 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                <span>
+                    <img src="media/communities.png" alt="communities" class="h-9">
+                </span>
+                <span>
+                    Communities
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                <span>
+                    <img src="media/logo.svg" alt="logo" class="h-9 invert">
+                </span>
+                <span>
+                    Premium
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                <span>
+                    <img src="media/Person.png" alt="Person" class="h-9">
+                </span>
+                <span>
+                    Profile
+                </span>
+            </li>
+            <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                <span>
+                    <img src="media/more.svg" alt="more" class="h-9 invert">
+                </span>
+                <span>
+                    More
+                </span>
+            </li>
+            <li>
+                <button class="bg-blue-600 flex justify-center items-center h-12 w-full rounded-full hover:shadow-xl hover:bg-blue-500">
+                    Post
+                </button>
+            </li>
+        </ul>
+
+        <!-- Here Goes the Profile Section -->
+        <div class="flex justify-center items-center w-1/2 gap-4 mt-10 hover:bg-gray-900 rounded-full px-4 py-1">
+
+            <!-- Here Goes the Profile Picture -->
+            <span class="cursor-pointer">
+                <img src="media/profile pic.jpeg" alt="profile picture" class="h-10 w-10 rounded-full">
+            </span>
+            <div class="flex flex-col">
+                <span class="font-bold cursor-pointer hover:underline">
+                    <span>
+                        Captain Jahir
+                    </span>
+                </span>
+                <span class="font-semibold text-gray-600 cursor-pointer hover:underline">
+                    <span>
+                        @CaptainJahir
+                    </span>
+                </span>
+            </div>
+            <span class="more cursor-pointer">
+                <img src="media/more.svg" alt="more">
+            </span>
+        </div>
+    </div>
+
+    <!-- Middle Section of the Website -->
+    <div class="border-x-[0.01px] border-gray-800 w-[40%] text-lg font-semibold absolute left-[27%]">
+
+        <!-- Top Section of the Midddle Section -->
+        <div class="border-gray-800 border-b-[0.01px] w-full h-14 flex sticky top-0 bg-black z-10">
+            <div class="w-1/2 h-full flex justify-center items-center cursor-pointer hover:bg-gray-900">For You</div>
+            <div class="w-1/2 h-full text-center flex justify-center items-center cursor-pointer hover:bg-gray-900">Following</div>
+            <div class="bg-blue-700 w-14 h-1 rounded z-10 absolute bottom-0 left-[21%]">
+                <!-- This div is for Styling Purpose -->
+                <!-- That Blue color part under "For you and Following" -->
+            </div>
+        </div>
+
+        <!-- Post Someting Section in the middle section -->
+        <div class="mt-4 ml-6 mr-6">
+            <!-- Here goes the top of post section {Profile pic , Input tag etc...} -->
+            <div class="flex flex-col gap-2 pb-4">
+                <!-- Here Goes the Top - {Input,Profile Pic Etc....} -->
+                <div class="flex gap-3">
+                    <span>
+                        <img src="media/profile pic.jpeg" alt="profile-pic" class="h-12 w-12 rounded-full ">
+                    </span>
+                    <input type="text" placeholder="What is happening?!" class="outline-none w-[85%] bg-transparent placeholder:font-normal placeholder:text-xl">
+                </div>
+                <div class="flex gap-1 text-sm font-semibold ml-16 text-[rgb(29,155,240)] items-center">
+                    <img src="media/global.svg" alt="globe" class="h-5 cursor-pointer">
+                    <span class="cursor-pointer hover:underline">Everyone can reply</span>
+                </div>
+                <div class="bg-gray-700 h-[0.1px] w-full ">
+                    <!-- This div is for Botton Border -->
+                </div>
+
+                <!-- here Goes the Images,videos,gis,etc.... and Post button too... -->
+                 <div class="flex justify-between items-center">
+                    <ul class="flex gap-1 mt-2 ml-16">
+                        <li class="cursor-pointer p-[3px] rounded-full hover:bg-[rgba(29,156,240,0.18)]">
+                            <img src="media/blue-images.svg" alt="images" class="h-5 w-5">
+                        </li>
+                        <li class="cursor-pointer p-[3px] rounded-full hover:bg-[rgba(29,156,240,0.18)]">
+                            <img src="media/gif.svg" alt="gif" class="h-5 w-5">
+                        </li>
+                        <li class="cursor-pointer p-[3px] rounded-full hover:bg-[rgba(29,156,240,0.18)]">
+                            <img src="media/poll.svg" alt="poll" class="h-5 w-5">
+                        </li>
+                        <li class="cursor-pointer p-[3px] rounded-full hover:bg-[rgba(29,156,240,0.18)]">
+                            <img src="media/emoji.svg" alt="emoji" class="h-5 w-5">
+                        </li>
+                        <li class="cursor-pointer p-[3px] rounded-full hover:bg-[rgba(29,156,240,0.18)]">
+                            <img src="media/event callander.svg" alt="callender" class="h-5 w-5">
+                        </li>
+                        <li class="cursor-pointer p-[3px] rounded-full hover:bg-[rgba(29,156,240,0.18)]">
+                            <img src="media/location.svg" alt="location" class="h-5 w-5">
+                        </li>
+                    </ul>
+
+                    <button class="bg-[rgb(29,156,240)] py-1 px-6 rounded-full hover:bg-[rgba(29,156,240,0.8)]">
+                        Post
+                    </button>
+                 </div>
+            </div>
+        </div>
+
+        <div class="bg-gray-800 h-[0.1px] w-full mt-1">
+            <!-- Border bottom for the post section -->
+        </div>
+
+        <div class="text-[rgb(29,155,240)] flex justify-center items-center border-b-[0.1px] border-gray-800 h-12 cursor-pointer hover:underline hover:bg-gray-900">
+            Show 100 posts
+        </div>
+
+        <!-- Whole Posts Div -->
+         <div class="whole-posts">
+            <!-- Single Post Divs -->
+
+            <!-- Post-1 -->
+            <div class="border-b-[0.1px] border-gray-800 mt-4 relative">
+                <div class=" flex">
+                    <span>
+                        <img src="media/profile pic.jpeg" alt="profile-pic" class="h-12 w-12 rounded-full ml-6 mr-4 cursor-pointer">
+                    </span>
+                    <div class="flex justify-between">
+                        <span class="flex flex-col ">
+                            <span class="flex items-center">
+                                <p class="font-semibold cursor-pointer hover:underline">captainjahir</p>
+                                <img src="media/blue tick.svg" alt="blue-tick" class="mr-2 ml-[4px]">
+                                <p class="font-normal text-lg text-gray-600 cursor-pointer">@captainjahir</p>
+                            </span>
+                           <p class="font-normal">Yeah!! It's Alright</p>
+                        </span>
+                        <!-- 3 dots => Add more -->
+                        <span class="absolute right-3">
+                            <img src="media/3 dots more.svg" alt="more-dots" class="cursor-pointer">
+                        </span>
+                    </div>
+                </div>
+                <div class="w-full mt-3">
+                    <!-- Post Image -->
+                    <img src="media/post-1.jpeg" alt="meme" class="w-[80%] border border-gray-800 rounded-lg ml-[15%]">
+                    <!-- Stats for X Post -->
+                    <div class="w-[80%] ml-[15%] mt-2 mb-3">
+                        <ul class="flex items-center justify-between">
+                            <li class="flex justify-center items-center cursor-pointer">
+                                <img src="media/comment.svg" alt="Commnet" class="p-1 rounded-full hover:bg-gray-800">
+                                <span class="font-medium text-sm text-gray-300 hover:text-gray-600">237</span>
+                            </li>
+                            <li class="flex justify-center items-center cursor-pointer">
+                                <img src="media/Repeat.svg" alt="Repeat" class="hover:bg-gray-900 rounded-full p-1">
+                                <span class="font-medium text-sm text-gray-300 hover:text-gray-600">
+                                    1K
+                                </span>
+                            </li>
+                            <li class="flex justify-center items-center cursor-pointer">
+                                <img src="media/like.svg" alt="like" class="hover:bg-[rgba(249,24,129,0.18)] rounded-full p-1">
+                                <span class="font-medium text-sm text-gray-300 hover:text-red-400">
+                                    4.3K
+                                </span>
+                            </li>
+                            <li class="cursor-pointer flex justify-center items-center">
+                                <img src="media/stats.svg" alt="stats" class="hover:bg-gray-900 rounded-full p-1">
+                                <span class="font-medium text-sm text-gray-300 hover:text-gray-600">
+                                    1.9M
+                                </span>
+                            </li>
+                            <li class="flex justify-center items-center">
+                                <img src="media/save.svg" alt="save" class="rounded-full p-1 cursor-pointer hover:bg-gray-900">
+                                <img src="media/upload.svg" alt="upload" class="rounded-full p-1 cursor-pointer hover:bg-gray-900">
+                            </li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+
+            <!-- Post-2 -->
+            <div class="border-b-[0.1px] border-gray-800 mt-4 relative">
+                <div class=" flex">
+                    <span>
+                        <img src="media/pro-pic-2.jpeg" alt="profile-pic" class="h-12 w-12 rounded-full ml-6 mr-4 cursor-pointer">
+                    </span>
+                    <div class="flex justify-between">
+                        <span class="flex flex-col ">
+                            <span class="flex items-center">
+                                <p class="font-semibold cursor-pointer hover:underline">Spider Man</p>
+                                <img src="media/blue tick.svg" alt="blue-tick" class="mr-2 ml-[4px]">
+                                <p class="font-normal text-lg text-gray-600 cursor-pointer">@Spiderman</p>
+                            </span>
+                            <!-- Text for Post -->
+                           <p class="font-normal">Someting</p>
+                        </span>
+                        <!-- 3 dots => Add more -->
+                        <span class="absolute right-3">
+                            <img src="media/3 dots more.svg" alt="more-dots" class="cursor-pointer">
+                        </span>
+                    </div>
+                </div>
+                <div class="w-full mt-3">
+                    <img src="media/tweet post.jpg" alt="meme" class="w-[80%] border border-gray-800 rounded-lg ml-[15%]">
+                    <!-- Stats for X Post -->
+                    <div class="w-[80%] ml-[15%] mt-2 mb-3">
+                        <ul class="flex items-center justify-between">
+                            <li class="flex justify-center items-center cursor-pointer">
+                                <img src="media/comment.svg" alt="Commnet" class="p-1 rounded-full hover:bg-gray-800">
+                                <span class="font-medium text-sm text-gray-300 hover:text-gray-600">237</span>
+                            </li>
+                            <li class="flex justify-center items-center cursor-pointer">
+                                <img src="media/Repeat.svg" alt="Repeat" class="hover:bg-gray-900 rounded-full p-1">
+                                <span class="font-medium text-sm text-gray-300 hover:text-gray-600">
+                                    1K
+                                </span>
+                            </li>
+                            <li class="flex justify-center items-center cursor-pointer">
+                                <img src="media/like.svg" alt="like" class="hover:bg-[rgba(249,24,129,0.18)] rounded-full p-1">
+                                <span class="font-medium text-sm text-gray-300 hover:text-red-400">
+                                    4.3K
+                                </span>
+                            </li>
+                            <li class="cursor-pointer flex justify-center items-center">
+                                <img src="media/stats.svg" alt="stats" class="hover:bg-gray-900 rounded-full p-1">
+                                <span class="font-medium text-sm text-gray-300 hover:text-gray-600">
+                                    1.9M
+                                </span>
+                            </li>
+                            <li class="flex justify-center items-center">
+                                <img src="media/save.svg" alt="save" class="rounded-full p-1 cursor-pointer hover:bg-gray-900">
+                                <img src="media/upload.svg" alt="upload" class="rounded-full p-1 cursor-pointer hover:bg-gray-900">
+                            </li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+         </div>
+        
+    </div>
+    <!-- Right Section of the Website -->
+    <div class="w-[33%] h-full absolute left-[67%] flex flex-col items-center">
+        <!-- Search Bar -->
+        <div class="w-[80%] mt-2 bg-[#202327] rounded-full flex items-center gap-2">
+            <img src="media/Search.png" alt="Search" class="h-7 ml-5">
+            <input type="text" placeholder="Search" class="bg-transparent text-lg h-12 border-none outline-none w-[78%]">
+        </div>
+
+        <!-- What's Happening Div -->
+
+        <div class="border border-gray-700  w-[80%] pb-3 mt-5 rounded-xl px-5">
+            <p class="text-2xl font-medium mt-2">            
+                What's happening
+            </p>
+
+            <!-- All Hastags -->
+            <div>    
+                <!-- Hashtags for what's happening -->
+                <div class="mt-4 cursor-pointer hover:bg-[rgb(14,14,14)]">
+                    <!-- genere,trending,three dots -->
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-700 font-semibold">
+                            Music &bull; Trending
+                        </span>
+                        <img src="media/3 dots more.svg" alt="more" class="rounded-full hover:bg-gray-800">
+                    </div>
+    
+                    <!-- Hashtag -->
+    
+                    <p class="text-lg font-bold">
+                        &num;captainjahir
+                    </p>
+                    <span class="text-sm font-normal text-gray-600">
+                        12.3K posts
+                    </span>
+                </div>
+
+                <div class="mt-4 cursor-pointer hover:bg-[rgb(14,14,14)]">
+                    <!-- genere,trending,three dots -->
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-700 font-semibold">
+                            Leader &bull; Trending
+                        </span>
+                        <img src="media/3 dots more.svg" alt="more" class="rounded-full hover:bg-gray-800">
+                    </div>
+    
+                    <!-- Hashtag -->
+    
+                    <p class="text-lg font-bold">
+                        &num;CaptainForAReason
+                    </p>
+                    <span class="text-sm font-normal text-gray-600">
+                        52.3K posts
+                    </span>
+                </div>
+
+                <div class="mt-4 cursor-pointer hover:bg-[rgb(14,14,14)]">
+                    <!-- genere,trending,three dots -->
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-700 font-semibold">
+                            Love &bull; Trending
+                        </span>
+                        <img src="media/3 dots more.svg" alt="more" class="rounded-full hover:bg-gray-800">
+                    </div>
+    
+                    <!-- Hashtag -->
+    
+                    <p class="text-lg font-bold">
+                        &num;Nothing
+                    </p>
+                    <span class="text-sm font-normal text-gray-600">
+                        9.3K posts
+                    </span>
+                </div>
+
+                <div class="mt-4 cursor-pointer hover:bg-[rgb(14,14,14)]">
+                    <!-- genere,trending,three dots -->
+                    <div class="flex items-center justify-between">
+                        <span class="text-sm text-gray-700 font-semibold">
+                            State &bull; Trending
+                        </span>
+                        <img src="media/3 dots more.svg" alt="more" class="rounded-full hover:bg-gray-800">
+                    </div>
+    
+                    <!-- Hashtag -->
+    
+                    <p class="text-lg font-bold">
+                        &num;AllForOne
+                    </p>
+                    <span class="text-sm font-normal text-gray-600">
+                        14.3K posts
+                    </span>
+                </div>
+             </div>
+        </div>
+        <!-- Whome to follow -->
+
+        <div class="border border-gray-700  w-[80%] pb-3 mt-5 rounded-xl flex flex-col gap-3 px-5">
+            <p class="text-2xl font-medium mt-2">            
+                Who to follow
+            </p>
+
+            <!-- Profile in right Section -->
+            <!-- All Proiles -->
+            <div class="flex flex-col gap-6">
+                <!-- Single Profile -->
+
+                <div class="flex items-center justify-between">
+                    <div class="flex gap-3">
+                        <!-- Profile Pic -->
+                        <span>
+                            <img src="media/xavier.jpeg" alt="profile-pic" class="rounded-full h-12 cursor-pointer">
+                        </span>
+        
+                        <!-- Username and name -->
+                        <div class="flex flex-col">
+                            <span class="text-base cursor-pointer hover:underline">
+                                Dead Pool
+                            </span>
+                            <span class="text-sm text-gray-600 cursor-pointer hover:underline">
+                                &commat;PoolofDead
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button class="bg-white text-black font-bold px-4 py-1 rounded-full hover:bg-slate-200">Follow</button>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <div class="flex gap-3">
+                        <!-- Profile Pic -->
+                        <span>
+                            <img src="media/pro-pic-2.jpeg" alt="profile-pic" class="rounded-full h-12 cursor-pointer">
+                        </span>
+        
+                        <!-- Username and name -->
+                        <div class="flex flex-col">
+                            <span class="text-base cursor-pointer hover:underline">
+                                Spider Man
+                            </span>
+                            <span class="text-sm text-gray-600 cursor-pointer hover:underline">
+                                &commat;Spidy
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button class="bg-white text-black font-bold px-4 py-1 rounded-full hover:bg-slate-200">Follow</button>
+                    </div>
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <div class="flex gap-3">
+                        <!-- Profile Pic -->
+                        <span>
+                            <img src="media/pro-pic-1.jpeg" alt="profile-pic" class="rounded-full h-12 w-12 cursor-pointer">
+                        </span>
+        
+                        <!-- Username and name -->
+                        <div class="flex flex-col">
+                            <span class="text-base cursor-pointer hover:underline">
+                                Numan
+                            </span>
+                            <span class="text-sm text-gray-600 cursor-pointer hover:underline">
+                                &commat;Numan
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <button class="bg-white text-black font-bold px-4 py-1 rounded-full hover:bg-slate-200">Follow</button>
+                    </div>
+                </div>
+
+                <span class="text-blue-700 cursor-pointer hover:underline">
+                    Show more
+                </span>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="font-normal text-[13px] text-gray-500 cursor-pointer mt-4">
+            <ul class="grid grid-cols-3">
+                <li class="hover:underline">Terms of Services</li>
+                <li class="hover:underline">Privacy Policy</li>
+                <li class="hover:underline">Cookie Policy</li>
+                <li class="hover:underline">Accessibility</li>
+                <li class="flex gap-3">
+                    <span class="hover:underline">Ads info</span>
+                    <div class="flex gap-1">
+                        <span class="hover:underline">More</span>
+                        <img src="media/more gray color.svg" alt="more">
+                    </div>
+                </li>
+                <li class="cursor-text">
+                    &copy;2024 X captainjahir
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
