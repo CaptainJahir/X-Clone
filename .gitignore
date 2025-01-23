@@ -15,7 +15,6 @@ build/
 out/
 *.css.map
 *.min.css
-output.css
 
 # Environment variables
 .env
