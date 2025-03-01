@@ -12,115 +12,120 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="flex flex-row bg-black text-white">
+<body class="flex flex-row bg-black text-white scrollbar">
 
     <!-- Here Goes the Left Section of the webiste -->
-    <div class="flex w-[27%] min-h-full items-center flex-col fixed bottom-0">
-        <ul class="flex flex-col gap-[0.6rem] font-bold text-lg">
-            <li class="pl-4 mb-1 mt-2">
-                <img src="media/logo.svg" alt="logo" class="h-9 invert cursor-pointer">
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
-                <span>
-                    <img src="media/home.svg" alt="Home" class="h-8 invert">
-                </span>
-                <span>
-                    Home
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
-                <span>
-                    <img src="media/Search.png" alt="Search" class="h-9">
-                </span>
-                <span>
-                    Explore
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
-                <span>
-                    <img src="media/Notification.png" alt="bell" class="h-9">
-                </span>
-                <span>
-                    Notifications
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
-                <span>
-                    <img src="media/Mail.png" alt="Mail" class="h-9">
-                </span>
-                <span>
-                    Messages
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
-                <span>
-                    <img src="media/grok.svg" alt="grok" class="h-9 invert">
-                </span>
-                <span>
-                    Grok
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 pr-3 py-1 cursor-pointer rounded-full hover:bg-gray-900">
-                <span>
-                    <img src="media/communities.png" alt="communities" class="h-9">
-                </span>
-                <span>
-                    Communities
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
-                <span>
-                    <img src="media/logo.svg" alt="logo" class="h-9 invert">
-                </span>
-                <span>
-                    Premium
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
-                <span>
-                    <img src="media/Person.png" alt="Person" class="h-9">
-                </span>
-                <span>
-                    Profile
-                </span>
-            </li>
-            <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
-                <span>
-                    <img src="media/more.svg" alt="more" class="h-9 invert">
-                </span>
-                <span>
-                    More
-                </span>
-            </li>
-            <li>
-                <button class="bg-blue-600 flex justify-center items-center h-12 w-full rounded-full hover:shadow-xl hover:bg-blue-500">
-                    Post
-                </button>
-            </li>
-        </ul>
-
-        <!-- Here Goes the Profile Section -->
-        <div class="flex justify-center items-center w-1/2 gap-4 mt-10 hover:bg-gray-900 rounded-full px-4 py-1">
-
-            <!-- Here Goes the Profile Picture -->
-            <span class="cursor-pointer">
-                <img src="media/profile pic.jpeg" alt="profile picture" class="h-10 w-10 rounded-full">
-            </span>
-            <div class="flex flex-col">
-                <span class="font-bold cursor-pointer hover:underline">
+    <div class="min-h-full flex w-[27%] items-center flex-col fixed">
+        <!-- Scrollable div -->
+        <div class="overflow-y-auto scrollbar h-full">
+            <ul class="flex flex-col gap-[0.6rem] font-bold text-lg overflow-y-auto">
+                <li class="pl-4 mb-1 mt-2">
+                    <img src="media/logo.svg" alt="logo" class="h-9 invert cursor-pointer">
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
                     <span>
-                        Captain Jahir
+                        <img src="media/home.svg" alt="Home" class="h-8 invert">
                     </span>
-                </span>
-                <span class="font-semibold text-gray-600 cursor-pointer hover:underline">
                     <span>
-                        @CaptainJahir
+                        Home
                     </span>
-                </span>
-            </div>
-            <span class="more cursor-pointer">
-                <img src="media/more.svg" alt="more">
-            </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                    <span>
+                        <img src="media/Search.png" alt="Search" class="h-9">
+                    </span>
+                    <span>
+                        Explore
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                    <span>
+                        <img src="media/Notification.png" alt="bell" class="h-9">
+                    </span>
+                    <span>
+                        Notifications
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                    <span>
+                        <img src="media/Mail.png" alt="Mail" class="h-9">
+                    </span>
+                    <span>
+                        Messages
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 rounded-full cursor-pointer hover:bg-gray-900">
+                    <span>
+                        <img src="media/grok.svg" alt="grok" class="h-9 invert">
+                    </span>
+                    <span>
+                        Grok
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 pr-3 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                    <span>
+                        <img src="media/communities.png" alt="communities" class="h-9">
+                    </span>
+                    <span>
+                        Communities
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                    <span>
+                        <img src="media/logo.svg" alt="logo" class="h-9 invert">
+                    </span>
+                    <span>
+                        Premium
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                    <span>
+                        <img src="media/Person.png" alt="Person" class="h-9">
+                    </span>
+                    <span>
+                        Profile
+                    </span>
+                </li>
+                <li class="flex items-center gap-3 pl-4 py-1 cursor-pointer rounded-full hover:bg-gray-900">
+                    <span>
+                        <img src="media/more.svg" alt="more" class="h-9 invert">
+                    </span>
+                    <span>
+                        More
+                    </span>
+                </li>
+                <li>
+                    <button class="bg-blue-600 flex justify-center items-center h-12 w-full rounded-full hover:shadow-xl hover:bg-blue-500">
+                        Post
+                    </button>
+                </li>
+                <li>
+                    <!-- Here Goes the Profile Section -->
+                    <div class="flex justify-center items-center mt-4 gap-4 hover:bg-gray-900 rounded-full px-4 py-1">
+            
+                        <!-- Here Goes the Profile Picture -->
+                        <span class="cursor-pointer">
+                            <img src="media/profile pic.jpeg" alt="profile picture" class="h-10 w-10 rounded-full">
+                        </span>
+                        <div class="flex flex-col">
+                            <span class="font-bold cursor-pointer hover:underline">
+                                <span>
+                                    Captain Jahir
+                                </span>
+                            </span>
+                            <span class="font-semibold text-gray-600 cursor-pointer hover:underline">
+                                <span>
+                                    @CaptainJahir
+                                </span>
+                            </span>
+                        </div>
+                        <span class="more cursor-pointer">
+                            <img src="media/more.svg" alt="more">
+                        </span>
+                    </div>
+                </li>
+            </ul>
+    
         </div>
     </div>
 
@@ -137,7 +142,7 @@
             </div>
         </div>
 
-        <!-- Post Someting Section in the middle section -->
+        <!-- Post Something Section in the middle section -->
         <div class="mt-4 ml-6 mr-6">
             <!-- Here goes the top of post section {Profile pic , Input tag etc...} -->
             <div class="flex flex-col gap-2 pb-4">
@@ -270,7 +275,7 @@
                                 <p class="font-normal text-lg text-gray-600 cursor-pointer">@Spiderman</p>
                             </span>
                             <!-- Text for Post -->
-                           <p class="font-normal">Someting</p>
+                           <p class="font-normal">Something</p>
                         </span>
                         <!-- 3 dots => Add more -->
                         <span class="absolute right-3">
@@ -319,7 +324,7 @@
 
 
     <!-- Right Section of the Website -->
-     <div class="w-[33%] h-full fixed left-[67%] flex flex-col items-center overflow-y-auto">
+     <div class="w-[33%] h-full fixed left-[67%] flex flex-col items-center overflow-y-scroll scrollbar scrollbar-track-black">
         <!-- This is a test div -->
 
         <div class="w-[95%]">
